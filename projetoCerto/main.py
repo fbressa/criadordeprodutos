@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 client = OpenAI(
-    api_key='sk-proj-QWedaDXnphTug5WjvONOT3BlbkFJXuQue8hJRtYyh6Gy41Ak')
+    api_key='')
 app.secret_key = '123456'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///minhabase.sqlite3'
